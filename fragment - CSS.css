@@ -1,20 +1,21 @@
-@import url("https://use.typekit.net/hwd7mxc.css");
+@import url("https://use.typekit.net/hwd7mxc.css"); /* Agrega la fuente utilizada en la imagen */
 
 body {
+  /* Colores fijos en el foro */
   --color-border: rgb(0 0 0 / 75%);
   --color-strong: #cecece;
   --color-emphasis: #bf5392;
   --color-base: #ebe8e8;
-  
+
+  /* Colores que cambian según el tema elegido */
   --mode-base: #e5e4e4;
   --mode-border: rgb(232 228 228 / 75%);
   --mode-text: #333333;
   
   --font-second: "dreaming-outloud-sans", sans-serif;
+  --post-user: rgb(79 79 131); /* Valor por defecto del color del usuario, se puede eliminar */
 }
 
-
-/* edicion */
 blockquote {
   position: relative;
   border: none;
